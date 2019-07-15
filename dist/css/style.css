@@ -1,0 +1,1026 @@
+@font-face {
+  font-family: "SegoeUIRegular";
+  src: url("../fonts/SegoeUIRegular.eot");
+  src: url("../fonts/SegoeUIRegular.eot?#iefix") format("embedded-opentype"), url("../fonts/SegoeUIRegular/SegoeUIRegular.woff") format("woff"), url("../fonts/SegoeUIRegular/SegoeUIRegular.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+@font-face {
+  font-family: "SegoeUIBold";
+  src: url("../fonts/SegoeUIBold.eot");
+  src: url("../fonts/SegoeUIBold.eot?#iefix") format("embedded-opentype"), url("../fonts/SegoeUIBold/SegoeUIBold.woff") format("woff"), url("../fonts/SegoeUIBold/SegoeUIBold.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+@font-face {
+  font-family: "SegoeUIItalic";
+  src: url("../fonts/SegoeUIItalic.eot");
+  src: url("../fonts/SegoeUIItalic.eot?#iefix") format("embedded-opentype"), url("../fonts/SegoeUIItalic/SegoeUIItalic.woff") format("woff"), url("../fonts/SegoeUIItalic/SegoeUIItalic.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+@font-face {
+  font-family: "SegoeUILight";
+  src: url("../fonts/SegoeUILight.eot");
+  src: url("../fonts/SegoeUILight.eot?#iefix") format("embedded-opentype"), url("../fonts/SegoeUILight/SegoeUILight.woff") format("woff"), url("../fonts/SegoeUILight/SegoeUILight.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+@font-face {
+  font-family: "SegoeUISemiBold";
+  src: url("../fonts/SegoeUISemiBold.eot");
+  src: url("../fonts/SegoeUISemiBold.eot?#iefix") format("embedded-opentype"), url("../fonts/SegoeUISemiBold/SegoeUISemiBold.woff") format("woff"), url("../fonts/SegoeUISemiBold/SegoeUISemiBold.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+@font-face {
+  font-family: "OpenSansLight";
+  src: url("../fonts/OpenSansLight.eot");
+  src: url("../fonts/OpenSansLight.eot?#iefix") format("embedded-opentype"), url("../fonts/OpenSansLight/OpenSansLight.woff") format("woff"), url("../fonts/OpenSansLight/OpenSansLight.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+* {
+  box-sizing: border-box;
+  font-family: "Calibri";
+}
+.paddingsiz {
+  padding: 0px;
+}
+h3 {
+  font-size: 35px;
+  font-weight: bold;
+  color: #12a5c0;
+}
+.kuk_soya {
+  background-image: -ms-linear-gradient(left, rgba(18, 165, 192, 0.9) 0%, rgba(255, 255, 255, 0) 70%);
+  background-image: -moz-linear-gradient(left, rgba(18, 165, 192, 0.9) 0%, rgba(255, 255, 255, 0) 70%);
+  background-image: -o-linear-gradient(left, rgba(18, 165, 192, 0.9) 0%, rgba(255, 255, 255, 0) 70%);
+  background-image: -webkit-gradient(linear, left top, right top, color-stop(0, rgba(18, 165, 192, 0.8)), color-stop(70, #ffffff));
+  background-image: -webkit-linear-gradient(left, rgba(18, 165, 192, 0.9) 0%, rgba(255, 255, 255, 0) 70%);
+  background-image: linear-gradient(to right, rgba(18, 165, 192, 0.9) 0%, rgba(255, 255, 255, 0) 70%);
+}
+.kvadrat {
+  width: 50px;
+  height: 50px;
+  background: #12a5c0;
+  opacity: 1;
+  text-align: center;
+}
+.kvadrat:hover,
+.kvadrat:focus {
+  background: #0c778b;
+}
+.kvadrat img {
+  margin-top: 15px;
+}
+header .container {
+  padding-top: 40px;
+}
+header .container .logotip .name {
+  font-size: 30px;
+  font-family: "Calibri";
+  font-weight: bold;
+  vertical-align: bottom;
+  color: #12a5c0;
+  margin-left: -20px;
+  margin-top: 8px;
+}
+header .container .logotip img {
+  margin-top: -22px;
+}
+header .container .col-md-7 .container-fluid,
+header .container .col-md-7 .navbar-collapse {
+  padding-right: 0px;
+  padding-left: 0px;
+}
+header .container .col-md-7 .navbar-collapse {
+  padding-left: 5px;
+}
+header .container .navbar-default {
+  background: none;
+  border: none;
+}
+header .container .navbar-default .navbar-nav {
+  padding: 0px;
+}
+header .container .navbar-default .navbar-nav li a {
+  color: #474747;
+  font-size: 16px;
+  font-family: "Calibri";
+  font-weight: bold;
+  padding-left: 10px;
+  padding-right: 10px;
+  background: none;
+  padding-bottom: 10px;
+}
+header .container .navbar-default .navbar-nav li a:hover,
+header .container .navbar-default .navbar-nav li a:focus {
+  color: #12a5c0;
+  border-bottom: 3px solid #12a5c0;
+  background: none;
+}
+header .container .navbar-default .navbar-nav li a span {
+  color: #12a5c0;
+}
+header .container .navbar-default .navbar-nav li .izlash:hover,
+header .container .navbar-default .navbar-nav li .izlash:focus {
+  border-bottom: none;
+}
+header .container .navbar-default .navbar-nav input {
+  width: 200px;
+  border-radius: 0px;
+  border: 1px solid #12a5c0;
+  position: absolute;
+  right: 5.5%;
+  top: 15%;
+  display: none;
+}
+header .container .navbar-default .navbar-nav .active a {
+  color: #12a5c0;
+  border-bottom: 3px solid #12a5c0;
+}
+.karusel .carousel {
+  color: white;
+}
+.karusel .carousel .item img {
+  width: 100%;
+  max-width: 100%;
+  min-width: 100%;
+}
+.karusel .carousel .rang {
+  position: absolute;
+  z-index: 10;
+  width: 100%;
+  height: 100%;
+  top: 0%;
+  background-image: -ms-linear-gradient(left, rgba(18, 165, 192, 0.9) 0%, rgba(255, 255, 255, 0) 70%);
+  background-image: -moz-linear-gradient(left, rgba(18, 165, 192, 0.9) 0%, rgba(255, 255, 255, 0) 70%);
+  background-image: -o-linear-gradient(left, rgba(18, 165, 192, 0.9) 0%, rgba(255, 255, 255, 0) 70%);
+  background-image: -webkit-gradient(linear, left top, right top, color-stop(0, rgba(18, 165, 192, 0.8)), color-stop(70, #ffffff));
+  background-image: -webkit-linear-gradient(left, rgba(18, 165, 192, 0.9) 0%, rgba(255, 255, 255, 0) 70%);
+  background-image: linear-gradient(to right, rgba(18, 165, 192, 0.9) 0%, rgba(255, 255, 255, 0) 70%);
+}
+.karusel .carousel .carousel-caption {
+  position: absolute;
+  width: 38%;
+  top: 17%;
+  left: 7.5%;
+  text-align: left;
+  text-shadow: none;
+}
+.karusel .carousel .carousel-caption .oo {
+  font-size: 40px;
+  font-weight: lighter;
+  font-style: normal;
+  font-family: "Calibri";
+}
+.karusel .carousel .carousel-caption h1 {
+  font-size: 43px;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-family: "Calibri";
+  margin-top: -7px;
+}
+.karusel .carousel .carousel-caption p {
+  font-size: 18px;
+  font-family: "Calibri";
+  font-weight: lighter;
+  margin-top: 30px;
+}
+.karusel .carousel .carousel-caption button {
+  background: none;
+  border-radius: 0px;
+  border: 2px solid white;
+  font-family: "Calibri";
+  font-weight: bold;
+  font-size: 15px;
+  color: white;
+  text-transform: uppercase;
+  padding: 7px 27px;
+  margin-top: 5px;
+}
+.karusel .carousel .carousel-caption button:hover,
+.karusel .carousel .carousel-caption button:focus {
+  background: #12a5c0;
+}
+.karusel .carousel .carousel-control {
+  background: none;
+  width: 5%;
+  position: relative;
+  width: 50px;
+  height: 50px;
+  background: #12a5c0;
+  opacity: 1;
+  text-align: center;
+}
+.karusel .carousel .carousel-control:hover,
+.karusel .carousel .carousel-control:focus {
+  background: #0c778b;
+}
+.karusel .carousel .carousel-control img {
+  margin-top: 15px;
+}
+.karusel .carousel .chapga,
+.karusel .carousel .unga {
+  top: 85%;
+  position: absolute;
+}
+.karusel .carousel .chapga {
+  left: 84.5%;
+}
+.karusel .carousel .unga {
+  right: 7.2%;
+}
+.about {
+  font-family: "Calibri";
+  padding-top: 20px;
+}
+.about p {
+  padding-top: 10px;
+  font-size: 18px;
+  color: #474747;
+  font-weight: lighter;
+  text-align: justify;
+}
+.about .hizmatlar .barchasi {
+  text-align: center;
+}
+.about .hizmatlar .barcha {
+  color: #12a5c0;
+  font-size: 23px;
+  text-align: center;
+  font-family: "SegoeUIBold";
+}
+.about .hizmatlar .barcha:hover,
+.about .hizmatlar .barcha:focus {
+  text-decoration: none;
+}
+.about .hizmatlar h3 {
+  text-align: center;
+  text-transform: uppercase;
+}
+.about .hizmatlar .matn_nomi {
+  text-align: left;
+  text-transform: capitalize;
+  margin-top: 40px;
+}
+.about .hizmatlar .rasmlar {
+  width: 100%;
+  max-width: 100%;
+  min-width: 100%;
+  margin-top: 45px;
+}
+.about .hizmatlar .rasm {
+  position: relative;
+}
+.about .hizmatlar .soya {
+  position: absolute;
+  width: 100%;
+  height: 89%;
+  top: 11%;
+  background-image: -ms-linear-gradient(left, rgba(18, 165, 192, 0.9) 0%, rgba(255, 255, 255, 0) 70%);
+  background-image: -moz-linear-gradient(left, rgba(18, 165, 192, 0.9) 0%, rgba(255, 255, 255, 0) 70%);
+  background-image: -o-linear-gradient(left, rgba(18, 165, 192, 0.9) 0%, rgba(255, 255, 255, 0) 70%);
+  background-image: -webkit-gradient(linear, left top, right top, color-stop(0, rgba(18, 165, 192, 0.8)), color-stop(70, #ffffff));
+  background-image: -webkit-linear-gradient(left, rgba(18, 165, 192, 0.9) 0%, rgba(255, 255, 255, 0) 70%);
+  background-image: linear-gradient(to right, rgba(18, 165, 192, 0.9) 0%, rgba(255, 255, 255, 0) 70%);
+  z-index: 10;
+}
+.about .hizmatlar .soya .yozuvi {
+  width: 290px;
+  color: white;
+  margin-left: 38px;
+  margin-top: 160px;
+}
+.about .hizmatlar .soya .yozuvi h2 {
+  font-weight: bold;
+  font-size: 50px;
+  line-height: 13px;
+}
+.about .hizmatlar .soya .yozuvi p {
+  font-size: 20px;
+  font-weight: lighter;
+  color: white;
+}
+.about .hizmatlar .soya .kvadrat {
+  opacity: 1;
+  position: absolute;
+  right: 3%;
+}
+.about2 {
+  padding-bottom: 50px;
+}
+.about2 h3 {
+  margin-top: -10px;
+}
+.about2 .hizmatlar {
+  margin-top: 40px;
+}
+.about2 .rasm {
+  width: 100%;
+}
+.border {
+  border-bottom: 5px solid #282d33;
+}
+.hamkor {
+  background-size: 100%;
+  margin-top: 40px;
+  color: white;
+}
+.hamkor .hamkor_soya {
+  background-image: -ms-linear-gradient(left, rgba(18, 165, 192, 0.9) 0%, rgba(255, 255, 255, 0) 70%);
+  background-image: -moz-linear-gradient(left, rgba(18, 165, 192, 0.9) 0%, rgba(255, 255, 255, 0) 70%);
+  background-image: -o-linear-gradient(left, rgba(18, 165, 192, 0.9) 0%, rgba(255, 255, 255, 0) 70%);
+  background-image: -webkit-gradient(linear, left top, right top, color-stop(0, rgba(18, 165, 192, 0.8)), color-stop(70, #ffffff));
+  background-image: -webkit-linear-gradient(left, rgba(18, 165, 192, 0.9) 0%, rgba(255, 255, 255, 0) 70%);
+  background-image: linear-gradient(to right, rgba(18, 165, 192, 0.9) 0%, rgba(255, 255, 255, 0) 70%);
+  padding-top: 60px;
+  padding-bottom: 50px;
+}
+.hamkor p {
+  font-size: 25px;
+  font-family: "Calibri";
+  font-weight: bold;
+  color: white;
+}
+.hamkor h3 {
+  font-size: 40px;
+  font-weight: bold;
+  margin-top: -5px;
+  color: white;
+}
+.karusel_ikki {
+  padding-top: 40px;
+  padding-bottom: 60px;
+  text-align: center;
+  font-family: "Calibri";
+}
+.karusel_ikki h3 {
+  margin-bottom: 30px;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 35px;
+}
+.karusel_ikki .col-md-3 {
+  padding: 15px 30px;
+  border: 2px dashed #a4a4a4;
+  color: #a4a4a4;
+  height: 170px;
+  vertical-align: middle;
+  width: 22%;
+  margin-left: 2.5%;
+  cursor: pointer;
+}
+.karusel_ikki .col-md-3:first-child {
+  margin-left: 0;
+}
+.karusel_ikki .col-md-3 h4 {
+  font-size: 20px;
+  text-transform: uppercase;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-weight: bold;
+}
+.karusel_ikki .col-md-3 .kattaroq {
+  font-size: 24px;
+  padding-right: 0px;
+  padding-left: 0px;
+}
+.karusel_ikki .col-md-3 p {
+  font-weight: lighter;
+  font-size: 16px;
+}
+.karusel_ikki .col-md-3 .urtaga {
+  margin-top: 25px;
+}
+.karusel_ikki .col-md-3:hover,
+.karusel_ikki .col-md-3:focus {
+  color: black;
+  border: 2px dashed black;
+}
+footer {
+  background: #282d33;
+  padding: 20px 0px;
+}
+footer h3 {
+  color: white;
+  text-transform: uppercase;
+  margin-bottom: 30px;
+}
+footer p {
+  color: white;
+  font-size: 20px;
+  font-weight: lighter;
+  padding-top: 5px;
+  font-family: "Calibri";
+}
+footer p .glyphicon {
+  color: #12a5c0;
+  font-size: 20px;
+  margin-right: 10px;
+}
+footer ul {
+  margin-top: 23px;
+}
+footer li {
+  padding-top: 10px;
+}
+footer li a {
+  color: white;
+  font-family: "Calibri";
+  font-size: 20px;
+  font-weight: lighter;
+}
+footer li a:hover,
+footer li a:focus {
+  color: #309ed1;
+  text-decoration: none;
+}
+footer .ikonka {
+  background: white;
+  width: 33px;
+  height: 33px;
+  display: inline-block;
+  border-radius: 100%;
+  z-index: 100;
+  margin-left: 3px;
+}
+footer .ikonka:hover,
+footer .ikonka:focus {
+  background: #309ed1;
+}
+footer .ikonka img {
+  width: 100%;
+}
+footer .sotsial {
+  position: absolute;
+  margin-top: 80%;
+  text-align: right;
+  right: 5%;
+}
+footer .ungda {
+  text-align: right;
+}
+.copy {
+  padding: 10px 0px;
+  background: black;
+  color: white;
+  font-size: 14px;
+  font-family: "Calibri";
+}
+.copy .next {
+  text-align: right;
+}
+@media screen and (min-width: 1199px) {
+  .about .hizmatlar .rasmlar {
+    width: 100%;
+    max-width: 100%;
+    min-width: 100%;
+    margin-top: 45px;
+    height: 360px;
+  }
+}
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+  .row {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  header .container .logotip .name {
+    font-size: 23px;
+    margin-left: -10px;
+  }
+  header .container .logotip img {
+    width: 110%;
+  }
+  header .container .navbar-default .navbar-nav li a {
+    font-size: 14px;
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+  header .container .navbar-default .navbar-nav li a span {
+    font-size: 13px;
+  }
+  .karusel .carousel .carousel-caption {
+    width: 50%;
+    top: 4%;
+  }
+  .karusel .carousel .carousel-caption p {
+    margin-top: 15px;
+  }
+  .karusel .carousel .chapga,
+  .karusel .carousel .unga {
+    top: 80%;
+    position: absolute;
+  }
+  .karusel .carousel .chapga {
+    left: 82.5%;
+  }
+  .about .hizmatlar .rasmlar {
+    height: 280px;
+  }
+  .about .hizmatlar .soya {
+    height: 86.4%;
+    top: 13.8%;
+  }
+  .about .hizmatlar .soya .yozuvi {
+    margin-top: 120px;
+  }
+  .about .hizmatlar .soya .kvadrat {
+    right: 3%;
+    top: 80%;
+  }
+  .about2 p {
+    font-size: 15px;
+  }
+  .karusel_ikki .col-md-3 {
+    padding: 10px 20px;
+  }
+  footer .sotsial {
+    margin-top: 100%;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  .row {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  header {
+    text-align: center;
+  }
+  header .container .logotip {
+    padding-left: 40px;
+  }
+  header .container .logotip .name {
+    text-align: left;
+  }
+  header .container .navbar-default .navbar-nav li a {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  header .container .navbar-default .navbar-nav li a span {
+    font-size: 14px;
+  }
+  header .container .navbar-default .navbar-nav input {
+    width: 180px;
+    position: absolute;
+    right: 11%;
+    top: 15%;
+    display: none;
+  }
+  .karusel .carousel .carousel-caption {
+    width: 50%;
+    top: 1%;
+  }
+  .karusel .carousel .carousel-caption p {
+    margin-top: 0px;
+    font-size: 16px;
+  }
+  .karusel .carousel .carousel-caption .oo {
+    font-size: 30px;
+    margin-top: -10px;
+  }
+  .karusel .carousel .carousel-caption h1 {
+    font-size: 30px;
+  }
+  .karusel .carousel .carousel-caption button {
+    margin-top: 2px;
+    padding: 5px 27px;
+  }
+  .karusel .carousel .chapga,
+  .karusel .carousel .unga {
+    top: 79%;
+    position: absolute;
+  }
+  .karusel .carousel .chapga {
+    left: 81.5%;
+  }
+  .about .hizmatlar .matn_ichi p {
+    font-size: 14px;
+  }
+  .about .hizmatlar .soya {
+    height: 83%;
+    top: 17.6%;
+  }
+  .about .hizmatlar .soya .yozuvi {
+    margin-top: 50px;
+  }
+  .about .hizmatlar .soya .yozuvi h2 {
+    font-size: 30px;
+  }
+  .about .hizmatlar .soya .yozuvi p {
+    font-size: 18px;
+  }
+  .about .hizmatlar .soya .kvadrat {
+    right: 3%;
+    top: 72%;
+  }
+  .about .hizmatlar .rasmlar {
+    height: 210px;
+  }
+  .about2 img {
+    margin-bottom: 15px;
+  }
+  .about2 .hizmatlar .soya {
+    top: 16.7%;
+    height: 78%;
+  }
+  .karusel_ikki .col-md-3 {
+    width: 48%;
+    padding: 10px 20px;
+    margin-left: 2%;
+    margin-top: 15px;
+  }
+  footer .sotsial {
+    margin-top: 150%;
+  }
+}
+@media screen and (max-width: 767px) {
+  .row {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  .kvadrat {
+    width: 40px;
+    height: 40px;
+    text-align: center;
+  }
+  .kvadrat:hover,
+  .kvadrat:focus {
+    background: #0c778b;
+  }
+  header .container {
+    text-align: center;
+  }
+  header .container .col-md-7 .container-fluid,
+  header .container .col-md-7 .navbar-collapse {
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+  header .container .col-md-7 .navbar-collapse {
+    padding-left: 0px;
+  }
+  header .container .navbar-default .navbar-header button {
+    border: 1px solid #12a5c0;
+  }
+  header .container .navbar-default .navbar-header button .icon-bar {
+    background: #12a5c0;
+  }
+  header .container .navbar-default .navbar-header button:hover,
+  header .container .navbar-default .navbar-header button:focus {
+    background: none;
+  }
+  header .container .navbar-default .navbar-nav li a {
+    font-size: 18px;
+  }
+  header .container .navbar-default .navbar-nav li a:hover,
+  header .container .navbar-default .navbar-nav li a:focus {
+    border-bottom: none;
+  }
+  header .container .navbar-default .navbar-nav li .izlash {
+    text-align: right;
+    margin-right: 30%;
+  }
+  header .container .navbar-default .navbar-nav input {
+    width: 180px;
+    position: absolute;
+    right: 38%;
+    top: 83%;
+    display: block;
+  }
+  header .container .navbar-default .navbar-nav .active a {
+    border-bottom: none;
+  }
+  .karusel .carousel .carousel-caption {
+    width: 90%;
+    top: 0%;
+  }
+  .karusel .carousel .carousel-caption p {
+    margin-top: 0px;
+    font-size: 14px;
+  }
+  .karusel .carousel .carousel-caption .oo {
+    font-size: 20px;
+    margin-top: -10px;
+  }
+  .karusel .carousel .carousel-caption h1 {
+    font-size: 20px;
+  }
+  .karusel .carousel .carousel-caption button {
+    margin-top: 2px;
+    padding: 3px 24px;
+  }
+  .karusel .carousel .carousel-control {
+    width: 40px;
+    height: 40px;
+  }
+  .karusel .carousel .carousel-control img {
+    margin-top: 6px;
+  }
+  .karusel .carousel .chapga,
+  .karusel .carousel .unga {
+    top: 75%;
+    position: absolute;
+  }
+  .karusel .carousel .chapga {
+    left: 75.5%;
+  }
+  .about {
+    font-family: "Calibri";
+    padding-top: 20px;
+  }
+  .about .continue p {
+    padding-top: 0px;
+  }
+  .about p {
+    padding-top: 0px;
+    font-size: 18px;
+    color: #474747;
+    font-weight: lighter;
+    text-align: justify;
+  }
+  .about .hizmatlar .rasmlar {
+    height: 341px;
+  }
+  .about .hizmatlar .soya {
+    height: 88%;
+    top: 12%;
+    background-image: -ms-linear-gradient(left, rgba(18, 165, 192, 0.9) 0%, rgba(255, 255, 255, 0) 70%);
+    background-image: -moz-linear-gradient(left, rgba(18, 165, 192, 0.9) 0%, rgba(255, 255, 255, 0) 70%);
+    background-image: -o-linear-gradient(left, rgba(18, 165, 192, 0.9) 0%, rgba(255, 255, 255, 0) 70%);
+    background-image: -webkit-gradient(linear, left top, right top, color-stop(0, rgba(18, 165, 192, 0.8)), color-stop(70, #ffffff));
+    background-image: -webkit-linear-gradient(left, rgba(18, 165, 192, 0.9) 0%, rgba(255, 255, 255, 0) 70%);
+    background-image: linear-gradient(to right, rgba(18, 165, 192, 0.9) 0%, rgba(255, 255, 255, 0) 70%);
+  }
+  .about .hizmatlar .soya .yozuvi {
+    width: 70%;
+    color: white;
+    margin-left: 20px;
+    margin-top: 80px;
+  }
+  .about .hizmatlar .soya .yozuvi h2 {
+    font-size: 30px;
+  }
+  .about .hizmatlar .soya .yozuvi p {
+    font-size: 18px;
+  }
+  .about .hizmatlar .soya .kvadrat {
+    top: 85%;
+  }
+  .about2 img {
+    margin-bottom: 20px;
+  }
+  .about2 .hizmatlar .soya {
+    top: 10.8%;
+    height: 84.4%;
+  }
+  .hamkor {
+    margin-top: 10px;
+  }
+  .hamkor .hamkor_soya {
+    background-image: -ms-linear-gradient(left, rgba(18, 165, 192, 0.9) 0%, rgba(255, 255, 255, 0) 70%);
+    background-image: -moz-linear-gradient(left, rgba(18, 165, 192, 0.9) 0%, rgba(255, 255, 255, 0) 70%);
+    background-image: -o-linear-gradient(left, rgba(18, 165, 192, 0.9) 0%, rgba(255, 255, 255, 0) 70%);
+    background-image: -webkit-gradient(linear, left top, right top, color-stop(0, rgba(18, 165, 192, 0.8)), color-stop(70, #ffffff));
+    background-image: -webkit-linear-gradient(left, rgba(18, 165, 192, 0.9) 0%, rgba(255, 255, 255, 0) 70%);
+    background-image: linear-gradient(to right, rgba(18, 165, 192, 0.9) 0%, rgba(255, 255, 255, 0) 70%);
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  .hamkor p {
+    font-size: 20px;
+  }
+  .hamkor h3 {
+    font-size: 30px;
+    margin-top: -5px;
+    color: white;
+  }
+  .karusel_ikki {
+    text-align: center;
+  }
+  .karusel_ikki .col-md-3 {
+    margin-left: 10%;
+    width: 80%;
+    padding: 10px 20px;
+    margin-top: 15px;
+    height: auto;
+    padding: 50px 20px;
+  }
+  footer {
+    text-align: center;
+  }
+  footer .sotsial {
+    margin-top: 0%;
+    position: static;
+    text-align: center;
+  }
+  .copy {
+    font-size: 16px;
+    text-align: center;
+  }
+  .copy .next {
+    text-align: center;
+  }
+}
+@media screen and (max-width: 558px) {
+  header .container .navbar-default .navbar-nav li .izlash {
+    margin-right: 25%;
+  }
+  header .container .navbar-default .navbar-nav input {
+    right: 35%;
+  }
+  .kvadrat {
+    width: 30px;
+    height: 30px;
+  }
+  .karusel .carousel .carousel-caption {
+    left: 2%;
+    width: 95%;
+  }
+  .karusel .carousel .carousel-caption p {
+    font-size: 14px;
+  }
+  .karusel .carousel .carousel-caption .oo {
+    font-size: 18px;
+    margin-top: -15px;
+  }
+  .karusel .carousel .carousel-caption h1 {
+    font-size: 18px;
+  }
+  .karusel .carousel .carousel-caption button {
+    margin-top: -5px;
+    padding: 3px 18px;
+    font-size: 13px;
+  }
+  .karusel .carousel .carousel-control {
+    width: 30px;
+    height: 30px;
+  }
+  .karusel .carousel .carousel-control img {
+    margin-top: 0px;
+  }
+  .karusel .carousel .chapga,
+  .karusel .carousel .unga {
+    top: 70%;
+    position: absolute;
+  }
+  .karusel .carousel .chapga {
+    left: 75.5%;
+  }
+  .about .hizmatlar .rasmlar {
+    height: 250px;
+  }
+  .about .hizmatlar .soya {
+    height: 87.5%;
+    top: 12.6%;
+    background-image: -ms-linear-gradient(left, rgba(18, 165, 192, 0.9) 0%, rgba(255, 255, 255, 0) 70%);
+    background-image: -moz-linear-gradient(left, rgba(18, 165, 192, 0.9) 0%, rgba(255, 255, 255, 0) 70%);
+    background-image: -o-linear-gradient(left, rgba(18, 165, 192, 0.9) 0%, rgba(255, 255, 255, 0) 70%);
+    background-image: -webkit-gradient(linear, left top, right top, color-stop(0, rgba(18, 165, 192, 0.8)), color-stop(70, #ffffff));
+    background-image: -webkit-linear-gradient(left, rgba(18, 165, 192, 0.9) 0%, rgba(255, 255, 255, 0) 70%);
+    background-image: linear-gradient(to right, rgba(18, 165, 192, 0.9) 0%, rgba(255, 255, 255, 0) 70%);
+  }
+  .about .hizmatlar .soya .kvadrat {
+    top: 82%;
+  }
+  .about .hizmatlar .soya .kvadrat img {
+    margin-top: 3.5px;
+  }
+  .about2 img {
+    margin-bottom: 20px;
+  }
+  .about2 .hizmatlar .soya {
+    top: 14.2%;
+    height: 80.2%;
+  }
+}
+@media screen and (max-width: 479px) {
+  .karusel .carousel .carousel-caption {
+    left: 1%;
+    width: 98%;
+  }
+  .karusel .carousel .carousel-caption p {
+    font-size: 13px;
+  }
+  .karusel .carousel .carousel-caption .oo {
+    font-size: 16px;
+    margin-top: -15px;
+  }
+  .karusel .carousel .carousel-caption h1 {
+    font-size: 16px;
+  }
+  .karusel .carousel .carousel-caption button {
+    margin-top: -8px;
+    padding: 2px 16px;
+    font-size: 12px;
+  }
+  .about .hizmatlar .rasmlar {
+    height: 220px;
+  }
+  .about .hizmatlar .soya {
+    height: 83.2%;
+    top: 16.6%;
+    background-image: -ms-linear-gradient(left, rgba(18, 165, 192, 0.9) 0%, rgba(255, 255, 255, 0) 70%);
+    background-image: -moz-linear-gradient(left, rgba(18, 165, 192, 0.9) 0%, rgba(255, 255, 255, 0) 70%);
+    background-image: -o-linear-gradient(left, rgba(18, 165, 192, 0.9) 0%, rgba(255, 255, 255, 0) 70%);
+    background-image: -webkit-gradient(linear, left top, right top, color-stop(0, rgba(18, 165, 192, 0.8)), color-stop(70, #ffffff));
+    background-image: -webkit-linear-gradient(left, rgba(18, 165, 192, 0.9) 0%, rgba(255, 255, 255, 0) 70%);
+    background-image: linear-gradient(to right, rgba(18, 165, 192, 0.9) 0%, rgba(255, 255, 255, 0) 70%);
+  }
+  .about .hizmatlar .soya .kvadrat {
+    top: 82%;
+  }
+  .about .hizmatlar .soya .kvadrat img {
+    margin-top: 3.5px;
+  }
+  .about .hizmatlar .soya .yozuvi {
+    margin-top: 10px;
+  }
+  .about .hizmatlar .soya .yozuvi h2 {
+    font-size: 25px;
+  }
+  .about .hizmatlar .soya .yozuvi p {
+    font-size: 16px;
+  }
+  .about2 img {
+    margin-bottom: 20px;
+  }
+  .about2 .hizmatlar .soya {
+    top: 16%;
+    height: 77%;
+  }
+}
+@media screen and (max-width: 390px) {
+  .kvadrat {
+    width: 25px;
+    height: 25px;
+  }
+  header .container .navbar-default .navbar-nav li .izlash {
+    margin-right: 10%;
+  }
+  header .container .navbar-default .navbar-nav input {
+    right: 25%;
+    width: 150px;
+  }
+  .karusel .carousel .carousel-caption {
+    left: 0.5%;
+    width: 99%;
+  }
+  .karusel .carousel .carousel-caption p {
+    font-size: 12px;
+    margin-top: 0px;
+  }
+  .karusel .carousel .carousel-caption .oo {
+    font-size: 14px;
+    margin-top: -15px;
+  }
+  .karusel .carousel .carousel-caption h1 {
+    font-size: 14px;
+  }
+  .karusel .carousel .carousel-caption button {
+    margin-top: -8px;
+    padding: 1px 14px;
+    font-size: 12px;
+  }
+  .karusel .carousel .carousel-control {
+    width: 25px;
+    height: 25px;
+  }
+  .karusel .carousel .carousel-control img {
+    margin-top: -4px;
+  }
+  .karusel .carousel .chapga,
+  .karusel .carousel .unga {
+    top: 70%;
+    position: absolute;
+  }
+  .karusel .carousel .chapga {
+    left: 75.5%;
+  }
+  .about .hizmatlar .rasmlar {
+    height: 200px;
+  }
+  .about .hizmatlar .soya {
+    height: 82.5%;
+    top: 18%;
+    background-image: -ms-linear-gradient(left, rgba(18, 165, 192, 0.9) 0%, rgba(255, 255, 255, 0) 70%);
+    background-image: -moz-linear-gradient(left, rgba(18, 165, 192, 0.9) 0%, rgba(255, 255, 255, 0) 70%);
+    background-image: -o-linear-gradient(left, rgba(18, 165, 192, 0.9) 0%, rgba(255, 255, 255, 0) 70%);
+    background-image: -webkit-gradient(linear, left top, right top, color-stop(0, rgba(18, 165, 192, 0.8)), color-stop(70, #ffffff));
+    background-image: -webkit-linear-gradient(left, rgba(18, 165, 192, 0.9) 0%, rgba(255, 255, 255, 0) 70%);
+    background-image: linear-gradient(to right, rgba(18, 165, 192, 0.9) 0%, rgba(255, 255, 255, 0) 70%);
+  }
+  .about .hizmatlar .soya .kvadrat {
+    top: 82%;
+  }
+  .about .hizmatlar .soya .kvadrat img {
+    margin-top: 3.5px;
+  }
+  .about2 img {
+    margin-bottom: 20px;
+  }
+  .about2 .hizmatlar .soya {
+    top: 16.5%;
+    height: 76%;
+  }
+}
